@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="project-thumbnail" data-project="warships-defense">
-                <img src="Content/Project/WarShips Defense/Preview/Preview.png" alt="WarShips Defense">
+                <img src="Content/Project/WarShips Defense/Img/Scr (4).png" alt="WarShips Defense">
                 <div class="project-overlay">
                     <h3>WarShips Defense</h3>
                 </div>
