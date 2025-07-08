@@ -12,16 +12,16 @@
                     <h3>Cat on Tree</h3>
                 </div>
             </div>
+			<div class="project-thumbnail" data-project="protocol-foxstrong">
+                <img src="Content/Project/Protocol FoxStrong/Preview/PreView_2.png" alt="Protocol FoxStrong">
+                <div class="project-overlay">
+                    <h3>Protocol FoxStrong</h3>
+                </div>
+            </div>
             <div class="project-thumbnail" data-project="protocol-lis">
                 <img src="Content/Project/Protocol LiS/Preview/Preview.png" alt="Protocol LiS">
                 <div class="project-overlay">
                     <h3>Protocol LiS</h3>
-                </div>
-            </div>
-            <div class="project-thumbnail" data-project="protocol-foxstrong">
-                <img src="Content/Project/Protocol FoxStrong/Preview/PreView.png" alt="Protocol FoxStrong">
-                <div class="project-overlay">
-                    <h3>Protocol FoxStrong</h3>
                 </div>
             </div>
             <div class="project-thumbnail" data-project="mr-strategy-spaceship">
