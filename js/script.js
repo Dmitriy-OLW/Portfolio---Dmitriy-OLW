@@ -1,3 +1,46 @@
+// Анимация слайдера для Blender Base
+function initBlenderBaseSlider() {
+    const blenderBaseSection = document.getElementById('blender-base');
+    if (!blenderBaseSection) return;
+
+    const galleryItems = blenderBaseSection.querySelectorAll('.gallery-item img');
+    const sliderContainer = blenderBaseSection.querySelector('.preview-slider');
+    
+    if (!galleryItems.length || !sliderContainer) return;
+
+    // Создаем слайды из изображений галереи
+    galleryItems.forEach((img, index) => {
+        const slide = document.createElement('img');
+        slide.src = img.src;
+        slide.alt = img.alt;
+        slide.className = 'preview-slide';
+        if (index === 0) slide.classList.add('active');
+        sliderContainer.appendChild(slide);
+    });
+
+    const slides = sliderContainer.querySelectorAll('.preview-slide');
+    let currentSlide = 0;
+    
+    function showNextSlide() {
+        const nextSlide = (currentSlide + 1) % slides.length;
+        
+        slides[currentSlide].classList.remove('active');
+        slides[currentSlide].classList.add('prev');
+        
+        slides[nextSlide].classList.add('active');
+        
+        setTimeout(() => {
+            slides[currentSlide].classList.remove('prev');
+        }, 1000);
+        
+        currentSlide = nextSlide;
+    }
+
+    // Запускаем слайдер с интервалом 3 секунды
+    setInterval(showNextSlide, 3000);
+}
+
+
 document.addEventListener('DOMContentLoaded', function() {
     // Плавная прокрутка для всех ссылок
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -114,4 +157,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 	
+	// Вызываем функцию инициализации слайдера
+	initBlenderBaseSlider();
 });
