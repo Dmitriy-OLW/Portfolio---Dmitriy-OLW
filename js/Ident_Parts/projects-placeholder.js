@@ -1,15 +1,15 @@
     const projectsSection 	= `
 	<div class="hotbar-container">
             <div class="project-thumbnail" data-project="ar-hack">
-                <img src="Content/Project/AR_Hack/Preview/Preview.png" alt="AR Hack">
+                <img src="Content/Project/AR_Hack/Preview/Preview.png" alt="AR/MR app">
                 <div class="project-overlay">
-                    <h3>AR Hack</h3>
+                    <h3>AR/MR app</h3>
                 </div>
             </div>
             <div class="project-thumbnail" data-project="cat-on-tree">
-                <img src="Content/Project/Cat-On-Tree/Preview/Preview.png" alt="Cat on Tree">
+                <img src="Content/Project/Cat-On-Tree/Preview/Preview.png" alt="Cat On Tree">
                 <div class="project-overlay">
-                    <h3>Cat on Tree</h3>
+                    <h3>Cat On Tree</h3>
                 </div>
             </div>
 			<div class="project-thumbnail" data-project="protocol-foxstrong">
@@ -37,9 +37,9 @@
                 </div>
             </div>
             <div class="project-thumbnail" data-project="warships-defense">
-                <img src="Content/Project/WarShips Defense/Img/Scr (4).png" alt="WarShips Defense">
+                <img src="Content/Project/WarShips Defense/Img/Scr (4).png" alt="Warships Defense">
                 <div class="project-overlay">
-                    <h3>WarShips Defense</h3>
+                    <h3>Warships Defense</h3>
                 </div>
             </div>
             <div class="project-thumbnail" data-project="warhammer-pipe">
@@ -49,9 +49,9 @@
                 </div>
             </div>
             <div class="project-thumbnail" data-project="blender-base">
-                <img src="Content/Project/Blender_Base/Img/Arm_Sculpting (1).png" alt="Blender Base">
+                <img src="Content/Project/Blender_Base/Img/Arm_Sculpting (1).png" alt="Blender Projects">
                 <div class="project-overlay">
-                    <h3>Blender Base</h3>
+                    <h3>Blender Projects</h3>
                 </div>
             </div>
             <div class="project-thumbnail" data-project="postgresql">
@@ -61,7 +61,7 @@
                 </div>
             </div>
             <div class="project-thumbnail" data-project="other">
-                <img src="Content/Project/Other/Img/placeholder.jpg" alt="Other Projects">
+                <img src="Content/Project/Other/Img/placeholder.jpg" alt="">
                 <div class="project-overlay">
                     <h3>Other Projects</h3>
                 </div>

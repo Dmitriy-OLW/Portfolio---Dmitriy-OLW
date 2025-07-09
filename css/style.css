@@ -312,7 +312,10 @@ a:hover {
 }
 
 .project-preview {
-    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	border-radius: 6px;
     position: relative;
     overflow: hidden;
     height: 400px;
